@@ -28,7 +28,7 @@ const Iconos = () => {
                     <img className="tamaño" src="img/clubwerchow/ganadores.png" />
                     <div className="mascara">
                         <div className="p-4 mt-2">
-                            <a href="/sorteos/ganadores" className="mt-4 link">
+                            <a href="/ganadores" className="mt-4 link">
                                 Ingresar
                             </a>
                         </div>

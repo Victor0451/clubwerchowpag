@@ -10,7 +10,7 @@ const IconosResponsive = () => {
                 <a href="/comerciosadheridos">
                     <img className="tamaño" src="img/clubwerchow/empresas2.png" />
                 </a>
-                <a href="/sorteos/ganadores">
+                <a href="/ganadores">
                     <img className="tamaño" src="img/clubwerchow/ganadores.png" />
                 </a>
                 <a
