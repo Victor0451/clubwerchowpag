@@ -1,6 +1,6 @@
 {
   "name": "clubwerchow",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "author": "Ing. Longo Victor Manuel <victor.m.longo@gmail.com>",
   "dependencies": {
     "@chakra-ui/react": "^2.4.3",
     "@emotion/react": "^11.10.5",
@@ -16,6 +17,7 @@
     "framer-motion": "^7.6.19",
     "moment": "^2.29.4",
     "next": "13.0.6",
+    "next-images": "^1.8.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "serverless-mysql": "^1.5.4",

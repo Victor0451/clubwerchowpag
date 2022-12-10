@@ -1,14 +1,8 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   reactStrictMode: true,
-//   swcMinify: true,
-// }
+/** @type {import('next').NextConfig} */
 
+const withImages = require("next-images");
 
-
-// module.exports = nextConfig
-
-module.exports = {
+module.exports = withImages({
 
   reactStrictMode: true,
 
@@ -28,9 +22,9 @@ module.exports = {
   },
 
   images: {
-    domains: ['stock-seven.vercel.app', '190.231.67.172', 'sgi.werchow.com'],
+    domains: ['clubwerchow.com, clubwerchow.com.ar, clubwerchowpag.vercel.app'],
     // formats: ['image/avif', 'image/webp'],
   },
 
 
-}
+})

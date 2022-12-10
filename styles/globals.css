@@ -348,8 +348,9 @@ h3.heading {
 
 /*============= RESOURCE SECTION =============*/
 
+
 .fixed {
-  background-image: url("../public/img/clubwerchow/batarjeta.jpg");
+  background-image: url("/img/clubwerchow/batarjeta.jpg");
   z-index: -1;
   width: 100%;
   height: 100%;
@@ -422,7 +423,7 @@ hr.socket {
 
 @media (min-width: 581px) {
   .home-inner {
-    background-image: url("../public/img/clubwerchow/batarjeta.jpg") !important;
+    background-image: url("/img/clubwerchow/batarjeta.jpg") !important;
   }
 
   .navbar {
@@ -535,7 +536,7 @@ hr.socket {
   height: 100%;
   background-size: cover;
   background-position: center center center center;
-  background-image: url("../public/img/clubwerchow/batarjetaresp.jpg");
+  background-image: url("/img/clubwerchow/batarjetaresp.jpg");
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   will-change: transform;
