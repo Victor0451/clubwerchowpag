@@ -9,9 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.4.3",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "axios": "^1.2.1",
+    "framer-motion": "^7.6.19",
+    "moment": "^2.29.4",
     "next": "13.0.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "serverless-mysql": "^1.5.4",
+    "toastr": "^2.1.4"
   },
   "devDependencies": {
     "eslint": "8.29.0",
