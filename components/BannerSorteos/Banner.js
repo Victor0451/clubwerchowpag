@@ -1,14 +1,18 @@
 import React from 'react'
+import FormGanadores from '../Ganadores/FormGanadores'
 
 const Banner = () => {
     return (
         <div className="web">
             <div className="banner-sorteo">
-                <img
+                {/* <img
                     src="img/clubwerchow/sorteo.jpg"
                     alt="Sorteo Club Werchow"
                     className="image-banner"
-                />
+                /> */}
+
+                <FormGanadores />
+
                 <div className="middle-banner">
                     <hr className="mt-4 mb-4" />
                     <a href="/solicitudsorteo" className="btn btn-secondary btn-md text-white">

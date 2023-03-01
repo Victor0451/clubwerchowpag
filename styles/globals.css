@@ -49,6 +49,14 @@ body {
   height: 100% !important;
 }
 
+.car {
+
+width: 500px !important;
+max-height: 1000px !important ;
+color: #000 !important;
+
+}
+
 /* BANNER SORTEO */
 
 .banner-sorteo {

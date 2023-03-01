@@ -1,14 +1,16 @@
 import React from 'react'
+import FormGanadores from '../Ganadores/FormGanadores'
 
 const BannerResponsive = () => {
     return (
         <div className="responsive">
             <div className="banner-sorteo">
-                <img
+                {/* <img
                     src="img/clubwerchow/sorteo.jpg"
                     alt="Sorteo Club Werchow"
                     className="image-banner"
-                />
+                /> */}
+                <FormGanadores />
             </div>
             <div className="col-11 text-center mr-4">
                 <a

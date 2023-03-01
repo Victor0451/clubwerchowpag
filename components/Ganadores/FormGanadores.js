@@ -1,45 +1,148 @@
 import React from 'react'
+import Carousel from 'better-react-carousel'
 
 const FormGanadores = () => {
     return (
         <>
             <br />
             <br />
-            <br />
 
-            <div className="container">
-                <h2 className="mt-4 mb-4 text-center">
-                    Ganadores del sorteo por el dia del niño. ¡Felicitaciones!
-                </h2>
+            <div className="col-12">
+                <h3 className="heading text-center">
+                    <u>Nuestros Ganadores</u>
+                </h3>
                 <div className="heading-underline"></div>
-                <div className="mb-4 d-flex justify-content-center">
-                    <img
-                        className="imagen-ganadores"
-                        src="img/clubwerchow/ganadores/15-08/GANADORES.jpg"
-                        alt="clubwerchow ganadores sorteo dia del niño"
-                    />
-                </div>
-                <br />
-                <div className="heading-underline"></div>
-                <div className="col-12 row">
-                    <div className="col-6">
-                        <img
-                            className="ganadores-fotos"
-                            src="img/clubwerchow/ganadores/15-08/2.jpg"
-                            alt="clubwerchow ganadores sorteo dia del niño"
-                        />
-                    </div>
-                    <div className="col-6">
-                        <img
-                            className="ganadores-fotos"
-                            src="img/clubwerchow/ganadores/15-08/1.jpg"
-                            alt="clubwerchow ganadores sorteo dia del niño"
-                        />
-                    </div>
-                </div>
-                <br />
+                <p className="heading text-center">No pierdas tiempo, inscribite al sorteo haciendo click <a href="/solicitudsorteo">aqui</a>!.</p>
             </div>
 
+            <div className='col-md-12'>
+                <Carousel cols={3} rows={1} gap={5} loop>
+
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/3.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/4.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/5.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/6.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/7.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/8.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/9.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/10.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/11.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/12.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/14.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/15.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/16.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/17.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/18.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/19.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/20.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/21.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/22.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/23.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/24.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/25.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/26.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/27.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/28.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/29.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/30.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/31.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/32.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/33.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/34.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/35.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/36.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/37.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/38.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/39.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/40.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/41.jpeg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/1.jpg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/2.jpg" />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img width="100%" src="img/clubwerchow/ganadores/GANADORES.jpg" />
+                    </Carousel.Item>
+                </Carousel>
+            </div>
         </>
     )
 }
