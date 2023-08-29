@@ -3431,6 +3431,11 @@
     "loose-envify" "^1.1.0"
     "scheduler" "^0.23.0"
 
+"react-export-table-to-excel@^1.0.6":
+  "integrity" "sha512-2NKyor1rFFEqYDXQq5tPoVNwwdv5kT8DWc65wAmDa9Hi0441qHj0tOxegWhpW0vlCM2TypIsw+ghzIr900U4RA=="
+  "resolved" "https://registry.npmjs.org/react-export-table-to-excel/-/react-export-table-to-excel-1.0.6.tgz"
+  "version" "1.0.6"
+
 "react-fast-compare@3.2.0":
   "integrity" "sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA=="
   "resolved" "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-3.2.0.tgz"
