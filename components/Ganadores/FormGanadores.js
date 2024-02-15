@@ -21,6 +21,15 @@ const FormGanadores = () => {
       <div className="col-md-12">
         <Carousel cols={3} rows={1} gap={5} loop>
           <Carousel.Item>
+            <img width="100%" src="img/clubwerchow/ganadores/1.jpg" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width="100%" src="img/clubwerchow/ganadores/2.jpg" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width="100%" src="img/clubwerchow/ganadores/GANADORES.jpg" />
+          </Carousel.Item>
+          <Carousel.Item>
             <img width="100%" src="img/clubwerchow/ganadores/3.jpeg" />
           </Carousel.Item>
           <Carousel.Item>
@@ -165,16 +174,37 @@ const FormGanadores = () => {
             <img width="100%" src="img/clubwerchow/ganadores/51.jpeg" />
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src="img/clubwerchow/ganadores/51.jpeg" />
+            <img width="100%" src="img/clubwerchow/ganadores/52.jpeg" />
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src="img/clubwerchow/ganadores/1.jpg" />
+            <img width="100%" src="img/clubwerchow/ganadores/53.jpeg" />
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src="img/clubwerchow/ganadores/2.jpg" />
+            <img width="100%" src="img/clubwerchow/ganadores/54.jpeg" />
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src="img/clubwerchow/ganadores/GANADORES.jpg" />
+            <img width="100%" src="img/clubwerchow/ganadores/55.jpeg" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width="100%" src="img/clubwerchow/ganadores/56.jpeg" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width="100%" src="img/clubwerchow/ganadores/57.jpeg" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width="100%" src="img/clubwerchow/ganadores/58.jpeg" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width="100%" src="img/clubwerchow/ganadores/59.jpeg" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width="100%" src="img/clubwerchow/ganadores/60.jpeg" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width="100%" src="img/clubwerchow/ganadores/61.jpeg" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width="100%" src="img/clubwerchow/ganadores/62.jpeg" />
           </Carousel.Item>
         </Carousel>
       </div>
